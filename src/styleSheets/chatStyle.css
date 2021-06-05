@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0PX;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.chat_section {
+    margin: 30px 20px;
+    display: flex;  
+    justify-content: center;
+}
+
+.userbox {
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5pc 0 !important;
+}
+
+.i_h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px 0px;
+    width: 100% !important;
+    height: 60px;
+    border: 1px solid rgba(0, 47, 52, .2);
+    border-width: 0 0 1px 0;
+    background-color: #002f34;
+    border-radius: 4px 0 0;
+}
+
+.chat_container{
+    display: flex;
+    justify-content: center;
+}
+
+.c_row1 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #002f34;
+    border-radius: 4px;
+}
+
+.c_h_1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.c_i_c {
+    display: flex;
+    gap: 10px;
+}
+
+.c_i {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.c_i_b {
+    font-size: 25px;
+    color: #FFF;
+}
+
+/* inbox styling */
+
+/* .u_ids{
+    padding: 0;
+} */
+
+.u_c {
+    border-bottom: 1px solid #002f34;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.q_c {
+    margin: 10px 18px;
+    padding: 10px 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4pc;
+    background-color: #23e5db;
+    align-items: center;
+}
+
+.q_c_h {
+    color: #002f34;
+    font-weight: 200 !important;
+    font-size: 16px;
+}
+
+.c_u {
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.c_u_p_img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.c_u_n {
+    font-size: 15px;
+    color: #002f34;
+    margin: 2px 4px;
+}
+
+/* chatbox */
+
+.chatbox {
+    padding: 0!important;
+}
+
+.c_a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px 0px;
+    width: 100% !important;
+    height: 60px;
+    border: 1px solid rgba(0, 47, 52, .2);
+    border-width: 0 0 1px 0;
+    background-color: #002f34;
+    /* border-radius: 4px 0 0 ; */
+}
+
+/* chat input Container */
+
+
+.full_chat_area{
+    width: 100%;
+    height: 100%;
+}
+.chat_area{
+    height: 85%;
+    width: 100%;
+    padding: 10px 15px 8px;
+    
+}
+
+.chats{
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+.chat_inp_cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    right: 0px;
+    padding: 5px ;
+    border-radius: 4pc;
+    background-color: #002f34;
+}
+.chat_inp_cont:focus-within {
+    background-color: #23e5db;
+}
+.Chat_sender_form{
+    width: 100%;
+    height: 100%;
+}
+
+.Chat_sender_inp{
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 4pc 0 0 4pc;
+    padding: 5px 8px;
+}
+.Chat_sender_inp:focus-within ,.Chat_sender_btn:active , .Chat_sender_btn:focus-within{
+    outline: none;
+}
+
+.Chat_sender_btn{
+    width: 20%;
+    border: 1px solid transparent;
+    border-radius: 0 4pc  4pc 0;
+    padding: 5px 8px;
+    background-color: #002f34;
+    color: #fff;
+}
+
+
+/* no_user_section */
+
+.no_user_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.no_user_img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* messages_container */
+
+.chat_ul{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    
+}
+
+
+.messages_container{
+    margin: 10px 10px 20px;
+    width: 300px;
+}
+
+.messages{
+    background-color: #23e5db;
+    width: 500px;
+    margin: 5px 0px;
+    list-style-type: none;
+    border: 1px solid transparent;
+    border-radius: 0pc 1pc;
+}
+
+.msg_para{
+    text-overflow: initial;
+    font: 10px;
+    padding: 5px 10px  !important;
+    overflow-wrap: break-word;
+    color: #002f34;
+}
+
+
+.c_c_u_n{
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0PX;
+}
+
+.home_page_body {
+    overflow-x: hidden;
+}
+
+.NavLinkDropdown {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.NavLinkDropdownSub {
+    display: block;
+    color: rgba(0, 47, 52, .64);
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.AllCatergoryBtn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 0px 10px;
+    margin: 5px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    color: #002f34;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.AllCatergoryBtn:focus, .AllCatergoryBtn:hover, .AllCatergoryBtn:active {
+    outline: none;
+}
+
+.HeaderLinksCOntainer {
+    display: flex;
+    background-color: #fff;
+    padding: 0px 20px;
+    border-bottom: 1px solid #fff3;
+    box-shadow: 0px 3px 8px rgb(230, 228, 228);
+}
+
+.Popper {
+    width: 200px;
+}
+
+/* very last footer */
+
+.copyRigh_footer {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding: 16px 74.5px;
+}
+
+.contantContainer {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.section2sectionFooter_last {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding: 16px 0;
+}
+
+.section2sectionFooter_last1 {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding: 16px 0;
+    margin-right: 74px;
+}
+
+._2XmAi {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.carosel_img {
+    width: 100px;
+}
+
+.carosel_item {
+    color: black;
+}
+
+.carosel_content {
+    margin: 0px;
+    height: 50px;
+    padding: 0px 30px;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(0, 47, 52);
+}
+
+.imgContainCarosel {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+}
+
+.intrm {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin: 5px 16px;
+    font-size: 12px;
+}
+
+/* email_auth_btn */
+
+.email_auth_btn {
+    width: 100%;
+}
+
+/* section_email_auth */
+
+.section_email_auth {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.olx_logo_container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 25px 15px 25px;
+}
+
+.email_auth_textfield {
+    width: 400px;
+    padding: 10px 5px;
+    border: 1px solid rgb(0, 47, 52);
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.email_auth_textfield:focus, .email_auth_textfield:active {
+    border: 1.3px solid #23e5db !important;
+}
+
+.olx_logo_email_login {
+    width: 150px;
+    height: 150px;
+}
+
+.signUp_btn {
+    width: 400px;
+    padding: 10px 5px;
+    border: 2px solid #3873f7;
+    background-color: #3873f7;
+    color: #ffff;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.signUp_btn:focus, .signUp_btn:active, .signUp_btn:hover {
+    outline: none;
+    background-color: #0349df;
+}
+
+.signup_heading {
+    font-size: 25px;
+    color: rgb(0, 47, 52);
+}
+
+.signUp_info_text {
+    font-size: 13px;
+    color: rgb(0, 47, 52);
+}
+
+.recaptcha {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.alcategory {
+    font-size: 20px;
+    font-weight: 300 !important;
+    margin: 0px 10px;
+}
+
+.Active:active{
+    transform: rotateX(180deg);
+    transition-delay: 3sec;
+}
+
+.backActive{
+    transform:rotateX(240deg);
+}
+
+.chev{
+    width: 18px !important;
+    height: 18px !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+
+.searchIcon{
+    font-size: 25px;
+}
+
+/* messages */
+
+
